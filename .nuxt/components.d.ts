@@ -17,6 +17,7 @@ type LazyComponent<T> = DefineComponent<HydrationStrategies, {}, {}, {}, {}, {},
 export const HomeHero: typeof import("../components/home/HomeHero.vue")['default']
 export const HomeMenu: typeof import("../components/home/HomeMenu.vue")['default']
 export const HomeTitle: typeof import("../components/home/HomeTitle.vue")['default']
+export const HomeMusicaHome: typeof import("../components/home/MusicaHome.vue")['default']
 export const MapBoard: typeof import("../components/map/MapBoard.vue")['default']
 export const MapScenery: typeof import("../components/map/MapScenery.vue")['default']
 export const MapZone: typeof import("../components/map/MapZone.vue")['default']
@@ -47,6 +48,7 @@ export const NuxtIsland: typeof import("../node_modules/nuxt/dist/app/components
 export const LazyHomeHero: LazyComponent<typeof import("../components/home/HomeHero.vue")['default']>
 export const LazyHomeMenu: LazyComponent<typeof import("../components/home/HomeMenu.vue")['default']>
 export const LazyHomeTitle: LazyComponent<typeof import("../components/home/HomeTitle.vue")['default']>
+export const LazyHomeMusicaHome: LazyComponent<typeof import("../components/home/MusicaHome.vue")['default']>
 export const LazyMapBoard: LazyComponent<typeof import("../components/map/MapBoard.vue")['default']>
 export const LazyMapScenery: LazyComponent<typeof import("../components/map/MapScenery.vue")['default']>
 export const LazyMapZone: LazyComponent<typeof import("../components/map/MapZone.vue")['default']>

@@ -17,6 +17,7 @@ interface _GlobalComponents {
   HomeHero: typeof import("../../components/home/HomeHero.vue")['default']
   HomeMenu: typeof import("../../components/home/HomeMenu.vue")['default']
   HomeTitle: typeof import("../../components/home/HomeTitle.vue")['default']
+  HomeMusicaHome: typeof import("../../components/home/MusicaHome.vue")['default']
   MapBoard: typeof import("../../components/map/MapBoard.vue")['default']
   MapScenery: typeof import("../../components/map/MapScenery.vue")['default']
   MapZone: typeof import("../../components/map/MapZone.vue")['default']
@@ -47,6 +48,7 @@ interface _GlobalComponents {
   LazyHomeHero: LazyComponent<typeof import("../../components/home/HomeHero.vue")['default']>
   LazyHomeMenu: LazyComponent<typeof import("../../components/home/HomeMenu.vue")['default']>
   LazyHomeTitle: LazyComponent<typeof import("../../components/home/HomeTitle.vue")['default']>
+  LazyHomeMusicaHome: LazyComponent<typeof import("../../components/home/MusicaHome.vue")['default']>
   LazyMapBoard: LazyComponent<typeof import("../../components/map/MapBoard.vue")['default']>
   LazyMapScenery: LazyComponent<typeof import("../../components/map/MapScenery.vue")['default']>
   LazyMapZone: LazyComponent<typeof import("../../components/map/MapZone.vue")['default']>
